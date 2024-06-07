@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Mover : Transformator
+public class Mover : DOTweenTransformation
 {
     [SerializeField] private Vector3 _targetPosition;
 

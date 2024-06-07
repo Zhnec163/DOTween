@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class Transformator : MonoBehaviour
+public abstract class DOTweenTransformation : MonoBehaviour
 {
     [SerializeField] protected float Duration = 3F;
 }

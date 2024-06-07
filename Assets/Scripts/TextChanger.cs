@@ -2,7 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextChanger : Transformator
+public class TextChanger : DOTweenTransformation
 {
     [SerializeField] private Text _text;
 

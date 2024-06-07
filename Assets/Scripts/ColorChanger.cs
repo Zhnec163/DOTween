@@ -2,7 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(Renderer))]
-public class ColorChanger : Transformator
+public class ColorChanger : DOTweenTransformation
 {
     [SerializeField] private Color _color;
     

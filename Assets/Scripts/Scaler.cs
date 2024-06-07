@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Scaler : Transformator
+public class Scaler : DOTweenTransformation
 {
     [SerializeField] private float _scale;
 
